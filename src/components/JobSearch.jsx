@@ -1,5 +1,3 @@
-import { FaSortDown } from "react-icons/fa";
-
 
 function JobSearch() {
   return (

@@ -17,7 +17,6 @@ function Home() {
   const [loading, setLoading] = useState(false);
 
   const openai = new OpenAI({
-    apiKey: "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",
     dangerouslyAllowBrowser: true
   });
 

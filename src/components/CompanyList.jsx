@@ -1,6 +1,7 @@
 import CompanyData from "./CompanyData"
 
 function CompanyList({company}) {
+  
   return (
     <div>
       {company.map((item)=>(

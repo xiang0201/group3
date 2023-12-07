@@ -73,6 +73,18 @@ Explore advanced configurations, code splitting, analyzing bundle size, making a
 
 If you encounter any issues, consult the [troubleshooting documentation](https://facebook.github.io/create-react-app/docs/troubleshooting). It covers common problems and solutions, including failures in the minification process.
 
+## Setting up GPT API Key
+To use the GPT API for AI suggestions in CareerPilot, follow these steps to set up your API key:
+Obtain a GPT API key from the provider (e.g., OpenAI).
+
+Replace the key in config.js file with your desired key.
+Note: Ensure you keep your API key secure and do not share it publicly.
+Save the file.
+
+Same steps go for CoreSignal API Key. 
+With these steps, your application is set up to use the GPT API for generating AI-enabled suggestions and CoreSignal API.
+
+
 ## About CareerPilot
 
 ### Key Features

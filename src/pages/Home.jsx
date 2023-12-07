@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import OpenAI from "openai";
 import JobInfo from "../components/JobInfo";
 import JobSearch from "../components/JobSearch";
+import config from '../../..config'; 
 
 function Home() {
   // State variables for form inputs and search status
@@ -21,6 +22,7 @@ function Home() {
 
   // Initializing OpenAI with browser access
   const openai = new OpenAI({
+    apiKey: config.apiKey,
     dangerouslyAllowBrowser: true
   });
 

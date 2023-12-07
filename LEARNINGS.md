@@ -1,4 +1,4 @@
-#LEARNINGS.MD
+# LEARNINGS.MD
 Team name: CareerPilot (Formerly Magic Job Hunting)
 Team members: Xiang Xiong, Ticky Shi, Mayank Sethi, Lisa Kasamba
 

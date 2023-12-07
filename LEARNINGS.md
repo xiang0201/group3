@@ -1,17 +1,61 @@
 # LEARNINGS.MD
-Team name: CareerPilot (Formerly Magic Job Hunting)
-Team members: Xiang Xiong, Ticky Shi, Mayank Sethi, Lisa Kasamba
 
-Our original plan was to develop an AI-powered job portal frontend using React, JavaScript, and CSS. And the project’s main aim was to enhance the job-seeking experience by integrating AI to provide more informative job listings. Many things changed along the way, like the team’s name for instance, from Magic Job Hunting to CareerPilot, which is catchy and concise. Likewise, we ended up not implementing user profiles nor job alerts. To a considerable extent, we would say that we were able to achieve our main goal of an enhanced job search experience through a clean finish, which in turn minimizes the “noise” which could be distracting during a job search.
+### Team Name: CareerPilot - Group 3
 
-Now, our project has the following functionality:
-· Search jobs based on company and job title.
-· Display search results in left nav.
-· Search results are generated from CoreSignal API query.
-· Company recommendations and preparation tips are generated from ChatGPT.
-· Click on save icon saves job search result saved jobs page.
-· Search results are stored in local storage (data is persisted) on the saved jobs page.
-· Search results that are saved can be filtered in the search box.
-· A click on one of these allows for deleting/ editing this search result.
+**Team Members:**
+- Xiang Xiong
+- Ticky Shi
+- Mayank Sethi
+- Lisa Kasamba
 
-We learned a lot from this project. For example, we all learned how to use React for the first time. Likewise, we learned that LinkedIn offers different API access levels, each with its own paid subscription. The basic access is free and provides limited access to LinkedIn's APIs. To avoid incurring this cost, we had to change from the LinkedIn to CoreSignal API to still get a list of job search results. We also had to work collaboratively to debug the React coding environment for one of our team members in order for them to run their code on their computer. A major challenge we did not seem to get around was figuring out how to collaborate of GitHub in terms of being able to pull and push code. Hence, we ended up with at least three different repositories. Overall, we were able to to fruitfully communicate as a unit and each member was a team player who played a role to ensure the success of our project.
+### Project Overview
+
+**Original Goal:**
+Our initial objective was to create an AI-powered job portal frontend using React, JavaScript, and CSS, with the primary focus on enhancing the job-seeking experience through AI integration for more informative job listings.
+
+**Achievement of Goal:**
+We successfully achieved our main goal of improving the job search experience through a clean and user-friendly interface. While some aspects of the original plan, such as user profiles and job alerts, weren't fully implemented, the overall project met our expectations.
+
+### Project Functionality
+
+Our project incorporates the following React-based functionalities:
+
+- **Dynamic Job Search:** Users can search for jobs based on company and job title using a dynamic search feature powered by React.
+
+- **Interactive User Interface:** The search results are displayed in the left navigation bar, creating an interactive and responsive user interface using React components.
+
+- **API Integration:** Job search results are generated from CoreSignal API queries, showcasing our ability to integrate external APIs seamlessly into our React application.
+
+- **AI-Powered Recommendations:** Company recommendations and preparation tips, powered by ChatGPT, are dynamically generated and displayed through React components.
+
+- **Save and Persist:** Users can save job search results to a dedicated "Saved Jobs" page. The search results are stored in local storage, ensuring data persistence and a seamless user experience on the saved jobs page.
+
+- **Filtering and Interaction:** Users can filter saved search results directly within the search box, enhancing user interaction and providing a convenient way to manage their saved jobs.
+
+- **Editing and Deletion:** The application allows users to edit or delete saved search results, providing flexibility and control over their saved job listings.
+
+### Technical Learnings
+
+**React Mastery:**
+All team members gained valuable experience in using React for the first time. This included understanding React components, state management, and the overall structure of a React application.
+
+**API Transition:**
+The team learned about the complexities of API access levels, transitioning from LinkedIn to CoreSignal API to obtain a list of job search results. This decision was driven by the need to avoid incurring costs associated with LinkedIn's different subscription levels.
+
+**Collaborative Debugging:**
+Faced with challenges in the React coding environment, the team engaged in collaborative debugging efforts to ensure that all members could run the code on their local machines successfully.
+
+### Challenges and Team Dynamics
+
+**GitHub Collaboration:**
+The team encountered challenges in effective collaboration on GitHub, resulting in the creation of at least three different repositories. Despite this hurdle, the team adapted to the situation and successfully managed the project.
+
+**Effective Communication:**
+Throughout the project, effective communication within the team played a crucial role in overcoming challenges and ensuring a unified approach towards project goals.
+
+**Team Player Mentality:**
+Each team member exhibited a team player mentality, contributing to various aspects of the project and collectively ensuring its success.
+
+### Conclusion
+
+In conclusion, the CareerPilot team not only achieved the core objectives of the project but also overcame challenges through collaborative efforts. The technical learnings, especially in React and API integration, have equipped the team with valuable skills for future projects. Despite the GitHub collaboration issues, the team's effective communication and collective commitment to success were pivotal in delivering a functional and enhanced job search experience.

@@ -1,14 +1,18 @@
-import CompanyData from "./CompanyData"
+// Import the CompanyData component
+import CompanyData from "./CompanyData";
 
-function CompanyList({company}) {
-  
+// Functional component CompanyList that receives 'company' as a prop
+function CompanyList({ company }) {
+  // Render a list of CompanyData components for each item in the 'company' array
   return (
     <div>
-      {company.map((item)=>(
-        <CompanyData key={item.id} item={item}/>
+      {company.map((item) => (
+        // Render a CompanyData component for each item with a unique key and pass the item as a prop
+        <CompanyData key={item.id} item={item} />
       ))}
     </div>
-  )
+  );
 }
 
-export default CompanyList
+// Export the CompanyList component
+export default CompanyList;

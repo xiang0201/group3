@@ -1,120 +1,133 @@
+/* Base, Components, and Utilities from Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Styling for display item */
 .displayItem {
-    background-color: #fff;
-    color: #333;
-    border-radius: 15px;
-    padding: 40px 50px;
-    margin: 20px 0;
-    position: relative;
-  }
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  position: relative;
+}
 
-  /* jobInfo.css (or any suitable file name) */
-
+/* Grid container styling */
 .grid-container {
-    display: grid;
-    grid-template-columns: 1.25fr 2fr;
-    gap: 2rem;
-    padding-top: 2rem;
-    border-radius: 24px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  display: grid;
+  grid-template-columns: 1.25fr 2fr;
+  gap: 2rem;
+  padding-top: 2rem;
+  border-radius: 24px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  
-  .bg-neutral-content {
-    border-radius: 24px;
-    border-color: #1f2937;
-    background-color: #f3f4f6; /* Adjust the color as needed */
-    color: #1f2937; /* Adjust the text color as needed */
-    padding: 1rem; /* Equivalent to p-5 in Tailwind */
-    height: 16%; /* Equivalent to h-96 in Tailwind */
-    overflow: auto;
-  }
+/* Background styling for neutral content */
+.bg-neutral-content {
+  border-radius: 24px;
+  border-color: #1f2937;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  padding: 1rem;
+  height: 16%;
+  overflow: auto;
+}
 
-  .center-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto; /* 100% of the viewport height */
-  }
-  
-  .text-neutral {
-    color: #6b7280; /* Adjust the color as needed */
-  }
-  
-  .col-span-2 {
-    grid-column: span 2;
-  }
-  
-  .col-span-3 {
-    grid-column: span 3;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .loader-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .loader-override {
-    display: block;
-    margin: auto;
-  }
-  
-  .result-container {
-    margin-top: 1rem;
-  }
-  
-  .result-message {
-    font-weight: bold;
-  }
-  
-  .result-info {
-    margin-top: 0.5rem;
-  }
-  
-  .save-button {
-    background-color: #3490dc; /* Adjust the color as needed */
-    color: rgb(255, 255, 255);
-    padding: 0.75rem 1.5rem; /* Equivalent to px-6 py-2 in Tailwind */
-    margin-top: 1.5rem;
-    border-radius: 25px; /* Equivalent to rounded-full in Tailwind */
-    align-self: flex-end;
-  }
+/* Center container styling */
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
 
+/* Text color for neutral content */
+.text-neutral {
+  color: #6b7280;
+}
+
+/* Grid column spans */
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3;
+}
+
+/* Flex container styling */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Loader container styling */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Loader override styling */
+.loader-override {
+  display: block;
+  margin: auto;
+}
+
+/* Result container styling */
+.result-container {
+  margin-top: 1rem;
+}
+
+/* Result message styling */
+.result-message {
+  font-weight: bold;
+}
+
+/* Result info styling */
+.result-info {
+  margin-top: 0.5rem;
+}
+
+/* Save button styling */
+.save-button {
+  background-color: #3490dc;
+  color: rgb(255, 255, 255);
+  padding: 0.75rem 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 25px;
+  align-self: flex-end;
+}
+
+/* Edit button styling */
 .edit-button {
-  background-color: hsl(206, 81%, 57%); /* Green background color */
-  color: white; /* White text color */
-  padding: 8px 16px; /* Padding */
-  border: none; /* Remove border */
-  border-radius: 25px; /* Rounded corners */
-  cursor: pointer; /* Add cursor on hover */
+  background-color: hsl(206, 81%, 57%);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
   margin-top: 12px;
-  margin-right: 12px; /* Margin between buttons */
+  margin-right: 12px;
 }
 
-/* Style for the input fields when editing */
+/* Edit button hover styling */
 .edit-button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049;
 }
 
-/* Style for the input fields when editing */
+/* Input field styling for editing */
 .displayItem input {
-  margin-bottom: 8px; /* Add space between input fields */
-  padding: 8px; /* Add padding to input fields */
-  width: 100%; /* Full width */
-  box-sizing: border-box; /* Include padding and border in width calculation */
+  margin-bottom: 8px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Header styling */
 header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #333;
@@ -122,13 +135,15 @@ header {
   padding: 1rem;
   text-align: center;
 }
+
+/* Title name styling */
 .titleName {
   color: #333;
   font-weight: bold;
   background-color: transparent;
-
 }
 
+/* Heading 2 styling */
 h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 20px;
@@ -137,17 +152,20 @@ h2 {
   font-weight: bold;
 }
 
+/* Paragraph styling */
 p {
   color: #555;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Ordered list styling */
 ol {
   padding-left: 30px;
   text-align: justify;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* List item styling */
 li {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -156,13 +174,13 @@ li {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* First child of list item styling */
 li:first-child {
   margin-top: 20px;
 }
 
+/* Section styling */
 section {
-
-
   max-width: 95%;
   margin: 2rem auto;
   padding: 1.5rem;
@@ -172,11 +190,13 @@ section {
   text-align: justify;
 }
 
+/* Text styling */
 .text {
-  margin-left: 5px; 
+  margin-left: 5px;
   font-style: italic;
 }
 
+/* Fixed search bar styling */
 .fixed-search-bar {
   position: fixed;
   text-align: justify;
@@ -185,11 +205,12 @@ section {
   left: 15%;
   width: 71%;
   background-color: #bbdffd;
-  color :rgb(16, 16, 15);
+  color: rgb(16, 16, 15);
   padding: 10px;
-  box-shadow: 0px 2px 5px rgba(4, 1, 1, 0.1); /* Optional: Add a box shadow for a subtle effect */
+  box-shadow: 0px 2px 5px rgba(4, 1, 1, 0.1);
 }
 
+/* Input search styling */
 .input-search {
   width: 100%;
   padding: 8px;
@@ -198,25 +219,31 @@ section {
   box-sizing: border-box;
 }
 
+/* Company name styling */
 .company-name {
   font-weight: bold;
 }
 
-.jobItems{
+/* Job items styling */
+.jobItems {
   padding-right: 2px;
-  
-}
-.border-black {
-  border: 1px solid rgb(21, 62, 228); /* Adjust the border style as needed */
 }
 
-.assistant-container{
+/* Border styling */
+.border-black {
+  border: 1px solid rgb(21, 62, 228);
+}
+
+/* Assistant container styling */
+.assistant-container {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   margin-top: 38%;
   margin-left: 36%;
 }
-.assistant-container-text{
+
+/* Assistant container text styling */
+.assistant-container-text {
   width: 80%;
   font-family: 'Courier New', Courier, monospace;
   margin-top: 10%;
